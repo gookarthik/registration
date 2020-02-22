@@ -1,0 +1,18 @@
+Complete user registration system using PHP and MySQL database
+==============================================================
+Download XAMPP here https://www.apachefriends.org/download.html
+
+Create a database called registration. In the registration database, add
+------------------------------------------------------
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `username` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+-----------------------------------------------------
+And that's it with the database. 
+Now create a folder called registration in a directory accessible to our server. i.e create the folder inside htdocs 
+Inside the folder registration, copy and paste these 
+Now restart the XAMPP 
+http://localhost/registration/
