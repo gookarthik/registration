@@ -13,6 +13,6 @@ CREATE TABLE `users` (
 -----------------------------------------------------
 And that's it with the database. 
 Now create a folder called registration in a directory accessible to our server. i.e create the folder inside htdocs 
-Inside the folder registration, copy and paste these 
+Inside the folder registration, copy and paste these files from github https://github.com/gookarthik/registration
 Now restart the XAMPP 
 http://localhost/registration/
